@@ -1,0 +1,150 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.t1
+{
+    padding-top: 30px;
+    text-align: center;
+}
+.cart
+{
+    width: 300px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.articles div
+{
+    width: 250px;
+    margin: 30px;
+}
+.img
+{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px rgb(39,39,39) ;
+} 
+h1
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    color:red;
+
+}
+h1::first-line
+{
+    color: blue;
+    font-size:80px;
+    font-style: italic;        
+}
+h4,h2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2,h4:hover
+{
+    color:red;
+}
+.btn
+{
+    position: relative;
+    left: 30px;
+    margin-top: 20px;
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #9a2fff,#3724dd);
+    border-width: 0px;
+    color:beige;
+}
+.btn:hover
+{
+    background-image: none;
+    background-color: #3121c2;
+    box-shadow: 0 0 20px rgb(29,4,141),0 0 60px rgb(29,4,141),0 0 60px rgb(29,4,141);
+}
+.btn-close
+{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        padding-top: 5px;
+        border-radius: 5px;
+        background-color: rgb(29,4,141);
+}
+#quantity1,#quantity2, #quantity3, #quantity4,#quantity5
+{
+        height: 20px;
+        text-align: center;
+        font-size: larger;
+        background-color:black;
+        color: white;
+        border-radius: 15px;
+}
+#size1,#size2,#size3,#size4,#size5
+{
+        height: 30px;
+        text-align: center;
+        font-size: larger;
+        background-color:black;
+        color: white;
+        border-radius: 15px;
+}
+li
+{
+        position: relative;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+#message1,#message2,#message3,#message4,#message5
+{
+        color:red;
+        text-decoration: underline;
+        font-size: larger;
+}
+button
+{
+        font-size: larger;
+        right: 5px;
+        background-color: #9a2fff;
+        color:aliceblue;
+        text-align: center;
+        border: 0px;
+        border-radius: 4px;
+        
+}
+button:hover
+{
+        background-color: #3121c2;
+}
+.addTo
+{
+    left: 0;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 150px;
+    background-image: linear-gradient(to right, #9a2fff,#3724dd); 
+}
+.addTo:hover
+{
+    background-image: none;
+    background-color: #3121c2;
+    box-shadow: 0 0 20px rgb(29,4,141),0 0 60px rgb(29,4,141),0 0 60px rgb(29,4,141);
+}
