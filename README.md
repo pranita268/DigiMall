@@ -1,1 +1,1 @@
-# DigiMall - Client-side shop to buy products online
+ DigiMall,  the Client-side shop to buy products online
