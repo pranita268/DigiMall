@@ -1,4 +1,5 @@
  DigiMall, is a digital shopping mall.
+ 
  Features-
  1. It Allows users to see a list of products available in the mall.
  2. Users can add products to the cart from the list.
